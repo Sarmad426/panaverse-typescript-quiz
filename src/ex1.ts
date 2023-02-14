@@ -3,7 +3,7 @@
      Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
  */
 
-const name : string = "Eric";
+const person_name : string = "Eric";
 console.log(`Hello ${name} would you like to learn some Python today? `)
 
 export{}
