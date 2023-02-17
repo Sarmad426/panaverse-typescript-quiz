@@ -1,5 +1,5 @@
 let favorite_fruits: string[] = ["Banana", "Apple", "Mango"];
-for (let fruit in favorite_fruits) {
+favorite_fruits.map((fruit: string): void => {
     if (fruit.toLowerCase() === 'apple') {
         console.log(`You Really Like ${fruit}`);
     }
@@ -9,4 +9,5 @@ for (let fruit in favorite_fruits) {
     if (fruit.toLowerCase() === 'mango') {
         console.log(`You Really Like ${fruit}`);
     }
-}
+})
+
