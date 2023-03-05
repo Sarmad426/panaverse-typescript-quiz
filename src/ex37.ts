@@ -24,4 +24,7 @@ const countTracks = (albumName: album): number | string => {
     else
         return "No Tracks"
 }
+console.log(Doorian);
+console.log(pslAnthem)
+console.log(enemy);
 console.log(countTracks(Doorian))
